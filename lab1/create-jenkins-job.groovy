@@ -2,7 +2,7 @@ import jenkins.model.Jenkins;
 import hudson.model.FreeStyleProject;
 import hudson.tasks.Shell;
 
-job = Jenkins.instance.createProject(FreeStyleProject, 'jenkins-demo3')
+job = Jenkins.instance.createProject(FreeStyleProject, 'jenkins-test')
 
 job.buildersList.add(new Shell('echo hello world'))
 
